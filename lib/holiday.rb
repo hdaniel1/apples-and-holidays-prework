@@ -105,6 +105,7 @@ def all_supplies_in_holidays(holiday_hash)
 
         holiday_array.each do |name|
           name = name.to_s.capitalize
+          binding.pry
         end
 
       puts "  #{holiday_array.join(" ")}: #{supplies.join(", ")}"
